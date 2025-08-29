@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Système de Gestion de Paie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Système de Gestion de Paie</h1>
+    <form id="employeForm">
+        <input type="text" id="nom" placeholder="Nom" required>
+        <input type="number" id="heures" placeholder="Heures travaillées" required>
+        <input type="number" id="taux" placeholder="Taux horaire" required>
+        <button type="submit">Ajouter Employé</button>
+    </form>
+    <table id="employesTable">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Heures</th>
+                <th>Taux</th>
+                <th>Salaire Brut</th>
+                <th>Déductions</th>
+                <th>Salaire Net</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
